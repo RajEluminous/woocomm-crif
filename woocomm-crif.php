@@ -587,11 +587,7 @@ function my_user_vote() {
 	$data = '<?xml version="1.0" encoding="utf-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" 
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> 
 	<SOAP-ENV:Header> 
-	<messageContext xmlns="http://www.deltavista.com/dspone/ordercheck-if/V001"> 
-	<credentials> 
-	<user>YakSleep_xml_demo</user> 
-	<password>f!Y6mM6euw</password> 
-	</credentials> 
+	<messageContext xmlns="http://www.deltavista.com/dspone/ordercheck-if/V001"> 	 
 	<correlationID>DE-456321</correlationID> 
 	</messageContext> 
 	</SOAP-ENV:Header> 
